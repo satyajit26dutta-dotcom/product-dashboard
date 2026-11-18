@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { products } from '../data/products';
+import { products } from '../data/Products';
 
 export default function Dashboard() {
   const [stats, setStats] = useState({ products: 0, cartCount: 0, cartValue: 0, orders: 0 });
