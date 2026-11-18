@@ -39,7 +39,7 @@ export default function Products() {
           placeholder="Search products..." 
           value={search} 
           onChange={(e) => setSearch(e.target.value)}
-          className="border p-2 rounded flex-1 min-w-[200px]"
+          className="border p-2 rounded flex-1 min-w-48"
         />
         <select onChange={(e) => setCategory(e.target.value)} className="border p-2 rounded">
           {categories.map((cat, index) => (
